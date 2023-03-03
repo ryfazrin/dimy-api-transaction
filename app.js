@@ -95,7 +95,7 @@ app.post('/api/transaction', (req, res) => {
             });
           }
 
-          // jika request berhasil
+          // if request success
           console.log('success!');
           res.status(201).json({ success: true, message: 'Berhasil insert data!' });
         });
